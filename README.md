@@ -73,9 +73,9 @@ ESP32的蓝牙LE游戏手柄库
 
 ## 安装
 -（确保您可以将ESP32与Arduino IDE配合使用。[说明可以在这里找到。]（https://github.com/espressif/arduino-esp32#installation-instructions））
--[从发布页面下载此库的最新版本。]（https://github.com/lemmingDev/ESP32-BLE-Gamepad/releases）
--在Arduino IDE中，转到“素描”->“包含库”->“添加.ZIP库...”，然后选择刚下载的文件。
--现在您可以转到“文件”->“示例”->“ ESP32 BLE游戏手柄”，然后选择示例以开始使用。
+- [从发布页面下载此库的最新版本。]（https://github.com/lemmingDev/ESP32-BLE-Gamepad/releases）
+- 在Arduino IDE中，转到“素描”->“包含库”->“添加.ZIP库...”，然后选择刚下载的文件。
+- 现在您可以转到“文件”->“示例”->“ ESP32 BLE游戏手柄”，然后选择示例以开始使用。
 
 ## Example
 
