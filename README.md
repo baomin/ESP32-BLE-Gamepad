@@ -32,6 +32,20 @@ Due to popular demand, it supports a large array of buttons and axes. You only n
  - [x] Compatible with MacOS X
  - [ ] Compatible with iOS (No - not even for accessibility switch - This is not a “Made for iPhone” (MFI) compatible device)
 
+## 特征
+ - [x] 按下按钮（64个按钮）
+ - [x]  释放按钮（64个按钮）
+ - [x]  轴移动（6轴（16位）（x，y，z，rZ，rX，rY）->（左手拇指X，左手拇指Y，右手拇指X，右手拇指Y，左触发器，右触发器））
+ - [x]  2个滑块（16位）（滑块1和滑块2）
+ - [x]  4个视角帽子（即d-pad和3个其他帽子开关）
+ - [x]  向主机报告可选的电池电量（基本可用，但不会显示在Android状态栏中）
+ - [x]  自定义蓝牙设备名称/制造商
+ - [x]  与Windows兼容
+ - [x]  与Android兼容（Android OS映射的默认按钮/轴/帽子与Windows稍有不同）
+ - [x]  与Linux兼容
+ - [x]  与MacOS X兼容
+ - [x]  与iOS兼容（否-甚至没有辅助功能开关-这不是“ Made for iPhone”（MFI）兼容设备）
+
 ## Installation
 - (Make sure you can use the ESP32 with the Arduino IDE. [Instructions can be found here.](https://github.com/espressif/arduino-esp32#installation-instructions))
 - [Download the latest release of this library from the release page.](https://github.com/lemmingDev/ESP32-BLE-Gamepad/releases)
