@@ -10,12 +10,31 @@ Please remove/delete the old version by deleting the ESP32_BLE_Gamepad folder wi
 
 Apologies for the early adopters, but it will save a lot of confusion moving forward.
 
+# 请阅读-库名变更
+大家好，所有DIY游戏发烧友。
+请注意，库管理器中该库的正式名称已从
+
+      ESP32 BLE Gamepad  -->  ESP32-BLE-Gamepad
+
+这是为了使其与那些也从GitHub下载并具有两个名称不同的版本的人保持一致，并导致混乱。
+安装时，库管理器会根据名称中的空格自动重命名文件夹ESP32_BLE_Gamepad。 具有旧名称的库已从管理器中除名，仅保留了新库。
+请通过删除库文件夹中的ESP32_BLE_Gamepad文件夹来删除/删除旧版本。
+
+为早期采用者道歉，但它将避免前进过程中的许多混乱。
+
 # ESP32-BLE-Gamepad
 Bluetooth LE Gamepad library for the ESP32
 
 This library allows you to make the ESP32 act as a Bluetooth Gamepad and control what it does. E.g. move axes and press buttons
 
 Due to popular demand, it supports a large array of buttons and axes. You only need to wire up the amount you'd like to use in your project. If you need more GPIO on your ESP32, you should search "Arduino GPIO expander". The i2c bus (uses just 2 GPIO pins) can be used to add multiple GPIO expanders to add all the GPIO you would ever need. 
+
+# ESP32蓝牙游戏手柄
+ESP32的蓝牙LE游戏手柄库
+
+该库可让您使ESP32充当Bluetooth Gamepad并控制其功能。 例如。 移动轴并按下按钮
+
+由于受欢迎的需求，它支持各种各样的按钮和轴。 您只需要连接您想在项目中使用的数量即可。 如果您需要在ESP32上使用更多GPIO，则应搜索“ Arduino GPIO扩展器”。 i2c总线（仅使用2个GPIO引脚）可用于添加多个GPIO扩展器，以添加您所需的所有GPIO。
 
 ## Features
 
@@ -44,13 +63,19 @@ Due to popular demand, it supports a large array of buttons and axes. You only n
  - [x]  与Android兼容（Android OS映射的默认按钮/轴/帽子与Windows稍有不同）
  - [x]  与Linux兼容
  - [x]  与MacOS X兼容
- - [x]  与iOS兼容（否-甚至没有辅助功能开关-这不是“ Made for iPhone”（MFI）兼容设备）
+ - [ ]  与iOS兼容（否-甚至没有辅助功能开关-这不是“ Made for iPhone”（MFI）兼容设备）
 
 ## Installation
 - (Make sure you can use the ESP32 with the Arduino IDE. [Instructions can be found here.](https://github.com/espressif/arduino-esp32#installation-instructions))
 - [Download the latest release of this library from the release page.](https://github.com/lemmingDev/ESP32-BLE-Gamepad/releases)
 - In the Arduino IDE go to "Sketch" -> "Include Library" -> "Add .ZIP Library..." and select the file you just downloaded.
 - You can now go to "File" -> "Examples" -> "ESP32 BLE Gamepad" and select the example to get started.
+
+## 安装
+-（确保您可以将ESP32与Arduino IDE配合使用。[说明可以在这里找到。]（https://github.com/espressif/arduino-esp32#installation-instructions））
+-[从发布页面下载此库的最新版本。]（https://github.com/lemmingDev/ESP32-BLE-Gamepad/releases）
+-在Arduino IDE中，转到“素描”->“包含库”->“添加.ZIP库...”，然后选择刚下载的文件。
+-现在您可以转到“文件”->“示例”->“ ESP32 BLE游戏手柄”，然后选择示例以开始使用。
 
 ## Example
 
@@ -112,9 +137,21 @@ Credits to [T-vK](https://github.com/T-vK) as this library is based on his ESP32
 
 Credits to [chegewara](https://github.com/chegewara) as the ESP32-BLE-Mouse library is based on [this piece of code](https://github.com/nkolban/esp32-snippets/issues/230#issuecomment-473135679) that he provided.
 
+## 归功于
+归功于[T-vK]（https://github.com/T-vK），因为此库基于他的ESP32-BLE-Mouse库（https://github.com/T-vK/ESP32-BLE- 他提供的鼠标）。
+
+由于[ESP32-BLE-Mouse]库基于[这段代码]（https://github.com/nkolban/esp32-snippets/issues/ 230＃issuecomment-473135679）。
+
 ## Notes
 Use [this](http://www.planetpointy.co.uk/joystick-test-application/) Windows test app to test/see all of the buttons
 
 You might also be interested in:
 - [ESP32-BLE-Mouse](https://github.com/T-vK/ESP32-BLE-Mouse)
 - [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard)
+
+## 注意
+使用[this]（http://www.planetpointy.co.uk/joystick-test-application/）Windows测试应用程序来测试/查看所有按钮
+
+你也可能对此有兴趣：
+-[ESP32-BLE-Mouse]（https://github.com/T-vK/ESP32-BLE-Mouse）
+-[ESP32-BLE-Keyboard]（https://github.com/T-vK/ESP32-BLE-Keyboard）
